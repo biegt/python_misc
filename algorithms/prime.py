@@ -1,5 +1,5 @@
 def find_primes(n):
-    """Function that finds all prime numbers up to a given number (n). Algorithm used is the the sieve of Eratosthenes."""
+    """Function that finds all prime numbers up to a given number (n). Algorithm used is the sieve of Eratosthenes."""
     is_prime = [True] * (n - 1)
     current_prime = 2
 
